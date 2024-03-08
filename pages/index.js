@@ -42,7 +42,18 @@ export default function Home() {
         >
           <Image
             src="/dexscreener.png"
-            alt="twitter logo"
+            alt="dexscreener logo"
+            height={100}
+            width={100}
+          />
+        </Link>
+        <Link
+          target="_blank"
+          href="https://t.co/xDT6qOBGXO"
+        >
+          <Image
+            src="/telegram.webp"
+            alt="telegram logo"
             height={100}
             width={100}
           />
