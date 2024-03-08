@@ -7,7 +7,7 @@ const comic = Comic_Neue({ subsets: ["latin"], weight: "700" });
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center gap-8 p-24 ${comic.className}`}
+      className={`flex min-h-screen flex-col items-center gap-8 p-10 ${comic.className}`}
       style={{
         backgroundImage: `url("/pigeon-cup-boots-2.png")`,
         backgroundSize: "cover",
@@ -18,6 +18,9 @@ export default function Home() {
       <p className="text-3xl text-yellow-400">
         CA: Gv7sW9pe9khuPjCYmRUTmHNAFm8yWDJVtDVyA1DExqr4
       </p>
+        <Link target="_blank" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=Gv7sW9pe9khuPjCYmRUTmHNAFm8yWDJVtDVyA1DExqr4&fixed=in">
+          <p className="bg-yellow-500 text-black p-4 text-5xl mb-2">BUY $PIGEON</p>
+        </Link>
       <Image
         src="/pigeon.jpeg"
         alt="pigeon in boots"
